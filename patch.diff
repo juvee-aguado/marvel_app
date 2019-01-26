@@ -1,0 +1,22 @@
+From 953e46f5ce0ba80f2e2b7e4d0e29d4bdc06e3b85 Mon Sep 17 00:00:00 2001
+From: Jose Juvenal Aguado Reyes <juve.ncx@gmail.com>
+Date: Fri, 25 Jan 2019 18:18:11 -0600
+Subject: [PATCH] Revert "Initial commit"
+
+This reverts commit 94ae92354e668293deb5473096640f961f4feb29.
+---
+ README.md | 1 -
+ 1 file changed, 1 deletion(-)
+ delete mode 100644 README.md
+
+diff --git a/README.md b/README.md
+deleted file mode 100644
+index 4304e97..0000000
+--- a/README.md
++++ /dev/null
+@@ -1 +0,0 @@
+-# marvel_app
+\ No newline at end of file
+-- 
+2.18.0.windows.1
+

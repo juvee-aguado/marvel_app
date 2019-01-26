@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/black"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/wrap_search"
+        android:layout_width="match_parent"
+        android:layout_alignParentStart="true"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:weightSum="3"
+        android:layout_height="wrap_content">
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_weight="2.6"
+        android:layout_width="0dp"
+        android:id="@+id/search_view"
+        android:textColorHint="@color/white"
+        android:layout_height="wrap_content"
+        android:hint="Buscar..."
+        android:textSize="15sp"
+        android:imeOptions="actionSearch"
+        android:layout_margin="5dp"
+        android:textCursorDrawable="@drawable/search_view"
+        app:met_baseColor="@android:color/white"
+        app:met_floatingLabel="highlight"
+        app:met_primaryColor="@color/white"
+        app:met_singleLineEllipsis="true" />
+        <ImageButton
+            android:id="@+id/btn_search"
+            android:layout_weight=".4"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:background="@color/black"
+            android:src="@drawable/ic_search"
+            />
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rcv_personajes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/wrap_search"
+        ></android.support.v7.widget.RecyclerView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom|end"
+        android:baselineAlignBottom="true"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_margin="20dp"
+        android:tag="0"
+        android:src="@drawable/ic_sort_by_alphabet"
+        app:backgroundTint="@color/colorAccent" />
+
+</RelativeLayout>

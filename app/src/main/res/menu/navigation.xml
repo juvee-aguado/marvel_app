@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_personajes"
+        android:icon="@drawable/ic_avengers"
+        android:title="@string/personajes" />
+
+    <item
+        android:id="@+id/navigation_comics"
+        android:icon="@drawable/ic_thought_bubble"
+        android:title="@string/comics" />
+
+    <item
+        android:id="@+id/navigation_series"
+        android:icon="@drawable/ic_television"
+        android:title="@string/series" />
+</menu>

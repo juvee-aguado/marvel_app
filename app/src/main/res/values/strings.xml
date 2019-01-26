@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Marvel</string>
+    <string name="personajes">Personajes</string>
+    <string name="comics">Comics</string>
+    <string name="series">Series</string>
+    <string name="not_found">No se encontraron resultados...</string>
+    <string name="no_conexion">No tienes Conexion a internet</string>
+    <string name="ok">Ok</string>
+</resources>
